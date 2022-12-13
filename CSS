@@ -1,0 +1,23 @@
+.zoom {
+  transition: transform .4s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.name {
+  font-size: 500%;
+  color: #927d75;
+  font-family: "High Tower Text";
+  -webkit-text-stroke: 1px black;
+  text-shadow: #3D1B06 1px 0 5px;
+}
+
+.qoute {
+  font-size: 220%;
+  color: #927d75;
+  font-family: "High Tower Text";
+  -webkit-text-stroke:0.6px black;
+  text-shadow: #3D1B06 1px 0 1px;
+}
